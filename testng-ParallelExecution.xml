@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="day1Package.SalesForce"/>
+      <class name="day1Package.SalesForceEditGroupType"/>
+      <class name="day1Package.SalesForceEnterGroupName"/>
+      <class name="day1Package.SalesForceLegalEnitity"/>
+      <class name="day1Package.SalesForceEdit"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
